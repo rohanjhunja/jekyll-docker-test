@@ -10,12 +10,12 @@ categories:
 
 A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.
 
-![](/images/food2.jpg)
+![]({{site.baseurl}}/images/food2.jpg)
 
-![](/images/food1.jpg)
+![]({{site.baseurl}}/images/food1.jpg)
 
 It allows an interactive dialogue between educator and audience, broadening their perspective through simple tools, that can easily carried in a small backpack.
 
 One of the pressing concerns is correct nutrition and this game helps the audience to understand what choices they are making and if they can be improved.
 
-![](/images/food3.jpg)
+![]({{site.baseurl}}/images/food3.jpg)

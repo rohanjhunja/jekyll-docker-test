@@ -17,7 +17,7 @@ title: Studio Jambhli
 email: mjhunja@hotmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Studio Jambhli is a design collective based out of Pune, Maharashtra that works on projects that are socially relevant.
-#baseurl: "/jekyll-docker-test" # the subpath of your site, e.g. /blog
+baseurl: "/jekyll-docker-test" # the subpath of your site, e.g. /blog
 url: "https://rohanjhunja.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
