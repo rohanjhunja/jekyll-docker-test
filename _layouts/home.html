@@ -27,7 +27,7 @@ layout: "wrapper_page"
         <div class="projectGrid">
             {% for post in site.posts %}
             {% if post.featured == 'education' %}
-            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+            <a class="project" href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
 
             {% endif %}
             {% endfor %}
@@ -41,7 +41,7 @@ layout: "wrapper_page"
         <div class="projectGrid">
             {% for post in site.posts %}
             {% if post.featured == 'environment' %}
-            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+            <a class="project" href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
 
             {% endif %}
             {% endfor %}
@@ -55,7 +55,7 @@ layout: "wrapper_page"
         <div class="projectGrid">
             {% for post in site.posts %}
             {% if post.featured == 'mental_health' %}
-            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+            <a class="project" href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
 
             {% endif %}
             {% endfor %}
@@ -69,7 +69,7 @@ layout: "wrapper_page"
 
         <div class="projectGrid otherGrid">
             {% for post in site.posts %}
-            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}</div></a>
+            <a class="project" href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}</div></a>
             {% endfor %}
         </div>
     </div>
