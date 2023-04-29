@@ -1,0 +1,88 @@
+---
+layout: "wrapper_page"
+---
+<div id="container">
+    <div id="main" style="position: relative;">
+
+    {% include header.html %}
+
+    <div id="intro" class="page" style="z-index:6; position:absolute; top:0; left:0; right:0; padding-top: 0;">
+        <div id="title">studio<div class="jambhli">jambhli</div>
+        <div class="jambhli" style="width: 80%; padding-top: 5%;">
+            <div id="introPara">studio jambhli is a design collective based out of pune, maharashtra that works on projects that are socially relevant.</div>
+            <div class="titleLinks" style="padding-top: 3vw;">
+                <a class="titleButton" href="#workPage1" >see our work</a>
+                <a class="titleButton" >meet our team</a>
+                <a class="titleButton" >get in touch</a>
+            </div>
+        </div>
+    </div>
+    <div id="introImage" ><img src="images/tree.png" style="object-fit: contain; max-height: 100vh; min-width:40vw;"></div></div>
+
+	<div class="page"></div>
+
+    <div id="workPage1" class="page" style="position: relative;">
+
+        <div class="projectPara" style="position: relative;">our interest is in <p>education</p> with an emphasis on multilingual approaches...<div class="paraLine">have a look at some of our projects</div></div>
+        <div class="projectGrid">
+            {% for post in site.posts %}
+            {% if post.featured == 'education' %}
+            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <div id="workPage2" class="page" style="position: relative;">
+
+        <div class="projectPara" style="position: relative;"><p>environmental issues</p> ranging from water usage to farming initiatives and biodiversity education...<div class="paraLine">see our work on the environment</div></div>
+        <div class="projectGrid">
+            {% for post in site.posts %}
+            {% if post.featured == 'environment' %}
+            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <div id="workPage3" class="page" style="position: relative;">
+
+        <div class="projectPara" style="position: relative;"><p>mental health</p> concerns have been explored over the years with a strong focus on creating understandable and accessible content.<div class="paraLine">see our work on mental health</div></div>
+        <div class="projectGrid">
+            {% for post in site.posts %}
+            {% if post.featured == 'mental_health' %}
+            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}<div class="projectClient">{{post.client_short}}</div></div></a>
+
+            {% endif %}
+            {% endfor %}
+
+        </div>
+    </div>
+
+    <div id="workPage4" class="page" style="position: relative;">
+        <div  id="otherPara" class="projectPara" style="position: relative;"><div class="paraLine" style="padding-top: 5vh;">go through more of our projects in these areas</div>
+		</div>
+
+        <div class="projectGrid otherGrid">
+            {% for post in site.posts %}
+            <a class="project" href="{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}</div></a>
+            {% endfor %}
+        </div>
+    </div>
+
+    
+    {% include contact_us.html %}
+
+    {% include footer.html %}
+
+
+
+</div>
+</div>
+
+
+

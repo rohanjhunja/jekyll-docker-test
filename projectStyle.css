@@ -197,4 +197,12 @@ html{
 			display: inline-block;
 		}
 
+		#menuIcon{
+			display: none;
+			}
+	
+			#menu{
+				display: none;
+			}
+
 		}

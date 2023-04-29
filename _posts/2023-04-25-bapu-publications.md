@@ -4,6 +4,8 @@ client: Bapu Trust
 client_short: bapu trust
 categories:
 - mental_health
+featured: mental_health
+coverImage: /images/bapu51.jpg
 ---
 
 A set of books developed over the years for Bapu Trust for Research on Mind and Discourse, dealing with various pressing problems in mental health.

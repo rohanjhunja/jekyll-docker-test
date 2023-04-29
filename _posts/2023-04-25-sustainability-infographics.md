@@ -4,6 +4,8 @@ client: Studio Project
 client_short: studio project
 categories:
 - environment
+featured: environment
+coverImage: /images/water1.jpg
 ---
 
 An internship project at Studio Jambhali creating a multi-lingual information set towards understanding environmental action in local terms.

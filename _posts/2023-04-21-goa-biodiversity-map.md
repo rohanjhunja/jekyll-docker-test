@@ -6,6 +6,8 @@ client_short: cee goa
 date: '2023-04-21 09:07:24 +0530'
 categories:
 - education
+featured: education
+coverImage: /images/goa4.jpg
 ---
 
 #### Working with CEE and the Directorate of Education Goa involved creating a unique biodiversity map and a set of teacher's handbooks.

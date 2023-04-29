@@ -6,6 +6,8 @@ client_short: bapu trust
 date: '2023-04-21 09:07:24 +0530'
 categories:
 - education
+featured: education
+coverImage: /images/food4.jpg
 ---
 
 A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.
