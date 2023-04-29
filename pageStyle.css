@@ -236,6 +236,45 @@ html{
 			
 		}
 
+		/* Profile CSS */
+
+		#profileGrid{
+			margin:0 auto 200px auto;
+			width: 80%;
+			padding: 0 10%;
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			text-align: left;
+		}
+	
+		#profileGrid>div{
+			width:250px;
+			margin: 0 5vw 10vw 0;
+			background-color:#fcfcfa;
+			display: inline-block;
+			line-height: 1.8;
+	
+		}
+		#profileGrid>div>img{
+			object-fit: cover;
+			height: 200px;
+			width: 200px;
+			border-radius: 50%;
+		}
+	
+		.profileTile p{
+			position: relative;
+			font-size: 18px;
+			color:black;
+		}
+	
+		.profileText{
+			font-family: 'Nanum Pen Script', cursive;
+			font-size: 30px;
+			margin-bottom: 10px;
+		}
+
 
 	
 
@@ -277,7 +316,7 @@ html{
 			height:40vw;*/
 			width:25vw;
 			height:25vw;
-			transition: width .5s ease 1s;
+			transition: width .5s ease .5s;
 		}
 
 		.projectGrid .projectName{
@@ -364,6 +403,11 @@ html{
 	
 			#menu{
 				display: none;
+			}
+
+		
+		#profileGrid>div{
+				margin: 0 10vw 8vw 0;
 			}
 
 		

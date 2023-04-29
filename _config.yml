@@ -56,3 +56,8 @@ defaults:
       date: '2023-04-21 09:07:24 +0530'
       categories: ""
       featured: ""
+
+collections:
+  team:
+    output: true
+    sort_by: order

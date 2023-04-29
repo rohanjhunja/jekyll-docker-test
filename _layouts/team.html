@@ -1,0 +1,28 @@
+---
+layout: "wrapper_page"
+---
+<div id="container">
+    <div id="main" style="position: relative;">
+
+    {% include header.html %}
+    <div id="aboutPage" class="page"><div class="heading" style="position: relative;">who we are</div>
+	<div id="profileGrid">
+        {% assign teams = site.team | sort: "order" %}
+        {% for team in teams %}
+        {% if team.order == 1 %}
+        <div class="profileTile" style="width: 550px; padding-left: 250px">
+        {% else %}
+        <div class="profileTile">
+        {% endif%}
+            <img src="{{ site.baseurl }}{{team.profile}}">
+            <div class ="profileText">{{team.name}}</div>
+            <div class="profileBody">{{ team.content }}</div>
+        </div>
+        {% endfor %}
+
+    </div>
+
+    {% include footer.html %}
+
+</div>
+</div>
