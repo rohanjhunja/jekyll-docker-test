@@ -190,7 +190,6 @@ html{
 	.otherGrid{
 		grid-template-columns: auto auto;
 		width: 100vw;
-		padding: 0;
 		}
 
 		.otherGrid img{

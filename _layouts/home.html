@@ -77,9 +77,11 @@ layout: "wrapper_page"
         <div  id="otherPara" class="projectPara" style="position: relative;"><div class="paraLine" style="padding-top: 5vh;">go through more of our projects in these areas</div>
 		</div>
 
-        <div class="projectGrid otherGrid">
+        <div class="projectGrid otherGrid" style="padding-bottom: 20vw;">
             {% for post in site.posts %}
+            {% if post.featured == '' %}
             <a class="project" href="{{site.baseurl}}{{post.url}}"><img src="{{site.baseurl}}{{post.coverImage}}"><div class="projectName">{{post.title}}</div></a>
+            {% endif %}
             {% endfor %}
         </div>
     </div>
