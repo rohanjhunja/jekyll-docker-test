@@ -6,6 +6,9 @@ categories:
 - environment
 featured: environment
 coverImage: /images/water1.jpg
+authors: 
+- namaya
+- marion
 ---
 
 An internship project at Studio Jambhali creating a multi-lingual information set towards understanding environmental action in local terms.

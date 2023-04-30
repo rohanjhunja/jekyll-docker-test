@@ -6,6 +6,11 @@ categories:
 - mental_health
 featured: mental_health
 coverImage: /images/bapu51.jpg
+authors: 
+- marion
+- isha
+- kuhika
+- namaya
 ---
 
 A set of books developed over the years for Bapu Trust for Research on Mind and Discourse, dealing with various pressing problems in mental health.

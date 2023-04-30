@@ -6,6 +6,11 @@ categories:
 - mental_health
 featured: mental_health
 coverImage: /images/rainbow1.jpg
+authors: 
+- anjali
+- shantashree
+- isha
+- marion
 ---
 
 Product designed for and with Bapu Trust, as games to help the field workers find easier and more visual ways to communicate concepts in mental health.
