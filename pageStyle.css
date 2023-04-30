@@ -78,34 +78,21 @@ html{
 		text-align: right;
 		margin-right: 2vw;
 		color:#aaaaaa;
-		cursor:pointer;
 		display: none;
-		text-decoration: none;
 		font-size: 18px;
 	}
 
-	.titleButton:hover{
+	.Links{
+		text-decoration: none;
+		color:#aaaaaa;
+		cursor: pointer;
+	}
+
+	.Links:hover{
 		color: black;
 	}
 
-	.titleLinks > a{
-		float:left;
-		font-size: 24px;
-		text-align: left; margin-left:0; margin-right:32px; vertical-align: top;
-	}
-
 	
-	
-	/* unvisited link */
-	/* a:link {
-	  color: purple;
-	} */
-
-	/* visited link */
-	/* a:visited {
-	  color: purple;
-	} */
-
 
 	.title{
 		width:80%; 
@@ -139,8 +126,11 @@ html{
 	}
 
 	.projectGrid{
-		display: inline-grid; grid-template-columns: auto auto; object-fit: cover;
-		width: 100vw; 
+		display: inline-grid; 
+		grid-template-rows: auto auto;
+		object-fit: cover;
+		width: 80vw; 
+		padding: 0 10vw;
 	}
 
 	.projectGrid .project{
@@ -149,9 +139,9 @@ html{
 	}
 
 	.projectGrid img{
-		height:50vw;
-		width: 50vw;
-		border-radius: 25vw;
+		height:80vw;
+		width: 80vw;
+		border-radius: 40vw;
 		overflow: hidden;
 		object-fit: cover;
 		
@@ -199,6 +189,14 @@ html{
 
 	.otherGrid{
 		grid-template-columns: auto auto;
+		width: 100vw;
+		padding: 0;
+		}
+
+		.otherGrid img{
+		height:50vw;
+		width: 50vw !important;
+		border-radius: 25vw;
 		}
 
 
@@ -234,6 +232,21 @@ html{
 			font-size: 7vw;
 			line-height: 1.5;
 			
+		}
+
+		/* .titleLinks .titleButton{
+			display: block;
+			padding-top: 32px;
+		} */
+
+		.IntroLink{
+			display: block;
+			font-size: 7vw;
+			padding-top: 64px;
+		}
+
+		#introImage{
+			display:none;
 		}
 
 		/* Profile CSS */
@@ -275,6 +288,27 @@ html{
 			margin-bottom: 10px;
 		}
 
+		.projectLink1{
+			display: block;
+			font-size: 2vw;
+			margin: 2vw 0;
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.projectLink1 > p{
+			/* font-size: 5vw; */
+			cursor: pointer;
+			text-decoration: none;
+		}
+
+		.footsteps{
+			display: none;
+			/* height: auto;
+			width: 150px;
+			transform: rotate(180deg); */
+		}
+
 
 	
 
@@ -305,10 +339,12 @@ html{
 		}
 
 		.projectGrid{
+			grid-template-columns: auto auto; 
 			margin: 0 10vw;
 			/*width:80vw;*/
 			width:50vw;
 			grid-gap: 3vw;
+			padding: 0;
 		}
 
 		.projectGrid img{
@@ -316,6 +352,7 @@ html{
 			height:40vw;*/
 			width:25vw;
 			height:25vw;
+			border-radius: 25vw;
 			transition: width .5s ease .5s;
 		}
 
@@ -338,11 +375,7 @@ html{
 		width:50vw;
 	}
 
-		.projectLink1{
-			font-size: 2vw;
-			margin: 2vw 0;
-			cursor: pointer;
-		}
+		
 
 		.heading{
 			font-size: 6vw;
@@ -390,20 +423,47 @@ html{
 			font-size: 2vw;
 		}
 
+		.IntroLink{
+			font-size: 2vw;
+			padding-top: 32px;
+		}
+
 		#introImage{
 			display:block;
 		}
 
-		
 
+		.projectLink1{
+			font-size: 2vw;
+			margin: 32px 0;
+			cursor: pointer;
+			text-decoration: none;
+		}
 
-		#menuIcon{
-			display: none;
-			}
-	
-			#menu{
-				display: none;
-			}
+		.projectLink1 > p{
+			font-size: 5vw;
+			cursor: pointer;
+			text-decoration: none;
+			color: #e3e3e3;
+		}
+
+		.footsteps{
+			display: inline-block;
+			height: auto;
+			width: 150px;
+			/* transform: rotate(180deg); */
+			clip-path: polygon(0% 0%, 0% 0%, 0% 0%, 0% 0%) ;
+			overflow: hidden;
+			transition: 1s ease-in;
+			filter: sepia(100%) hue-rotate(-155deg);
+		}
+
+		.projectLink1:hover .footsteps{
+			clip-path: polygon(0% 0%, 0% 100%, 100% 100%, 100% 0% ) ;
+		}
+		.projectLink1:hover p{
+			color: #8357db;
+		}
 
 		
 		#profileGrid>div{

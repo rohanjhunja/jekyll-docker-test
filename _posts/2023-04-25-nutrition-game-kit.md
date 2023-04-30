@@ -8,9 +8,15 @@ categories:
 - education
 featured: education
 coverImage: /images/food4.jpg
+authors:
+- marion
+- kuhika
+- isha
+- namaya
+- shantashree
 ---
 
-A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.
+#### A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.
 
 ![]({{site.baseurl}}/images/food2.jpg)
 

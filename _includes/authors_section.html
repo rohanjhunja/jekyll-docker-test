@@ -1,0 +1,12 @@
+<div style="margin:0 0 50px 0; width: 100%;">
+    {% for item in page.authors%}
+        <li>{{item}}</li>
+        {% assign item2 = site.team | where:"id", "marion"  | first %}
+        <li>{{item2.name}}</li>
+    {% endfor %}
+    <div class="profileTile"><img src="{{site.baseurl}}/images/profile.jpg"></div>
+    <div class="profileTile"><img src="{{site.baseurl}}/images/profile1.png"></div>
+    <div class="profileTile"><img src="{{site.baseurl}}/images/profile2.png"></div>
+    <div class="profileTile"><img src="{{site.baseurl}}/images/profile4.png"></div>
+</div>
+

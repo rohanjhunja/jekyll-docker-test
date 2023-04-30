@@ -1,4 +1,5 @@
 ---
+id: namaya
 name: namaya manjerakar
 profile: /images/profile4.png
 order: 4

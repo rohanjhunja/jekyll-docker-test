@@ -6,6 +6,8 @@ categories:
 - environment
 featured: environment
 coverImage: /images/pashan5.jpg
+authors: 
+- rohan
 ---
 
 The project with CEE and Pune Municipal Corporation involved two parts: creating community engagement around the lake and a self-guided trail experience.
