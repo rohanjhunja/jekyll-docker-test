@@ -10,10 +10,12 @@ authors:
 title: jagruti bus exhibition
 ---
 
-#### Environment Exhibition buses 'Jagruti' and 'Jigyasa' are a facility created by Maharashtra Pollution Control Board and the Centre for Environment Education to promote environmental awareness, responsible citizenship, and sustainable development.
+**Environment Exhibition buses 'Jagruti' and 'Jigyasa' are a facility created by Maharashtra Pollution Control Board and the Centre for Environment Education to promote environmental awareness, responsible citizenship, and sustainable development.**
+
 
 ![]({{site.baseurl}}/images/bus7.jpg)
 
+{:.fullwidth}
 ![]({{site.baseurl}}/images/bus2.jpg)
 
 ![]({{site.baseurl}}/images/bus3.jpg)

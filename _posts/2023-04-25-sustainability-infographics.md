@@ -11,7 +11,7 @@ authors:
 - marion
 ---
 
-An internship project at Studio Jambhali creating a multi-lingual information set towards understanding environmental action in local terms.
+**An internship project at Studio Jambhali creating a multi-lingual information set towards understanding environmental action in local terms.**
 
 ![]({{site.baseurl}}/images/water0.jpg)
 

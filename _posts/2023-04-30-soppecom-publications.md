@@ -10,9 +10,7 @@ authors:
 - rohan
 ---
 
-Society for Promoting Participative Ecosystem Management, is an NGO working in the rural areas of natural resource management.
-
-A number of publications were designed on these topics, facilitating readability and understanding through the document design.
+**Society for Promoting Participative Ecosystem Management, is an NGO working in the rural areas of natural resource management.**<br><br>A number of publications were designed on these topics, facilitating readability and understanding through the document design.
 
 ![]({{site.baseurl}}/images/sop1.jpg)
 
@@ -20,4 +18,5 @@ A number of publications were designed on these topics, facilitating readability
 
 Core areas include participatory irrigation management, watershed management, gender and livelihoods, river basin studies and energy efficient infrastructure technology.
 
+{:.fullwidth}
 ![]({{site.baseurl}}/images/sop3.jpg)![]({{site.baseurl}}/images/sop4.jpg)![]({{site.baseurl}}/images/sop5.jpg)

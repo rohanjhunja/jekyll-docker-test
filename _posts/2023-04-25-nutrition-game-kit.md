@@ -16,13 +16,15 @@ authors:
 - shantashree
 ---
 
-#### A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.
+{:.fullwidth}
+**A game kit used by field workers who visit various villages and small towns, educating women on a variety of topics.**
 
+{:.fullwidth}
 ![]({{site.baseurl}}/images/food2.jpg)
 
 ![]({{site.baseurl}}/images/food1.jpg)
 
-It allows an interactive dialogue between educator and audience, broadening their perspective through simple tools, that can easily carried in a small backpack.
+The kit is used to facilitate an interactive dialogue between educator and audience, broadening their perspective. This simple tool is designed to be easily carried in a small backpack.
 
 One of the pressing concerns is correct nutrition and this game helps the audience to understand what choices they are making and if they can be improved.
 

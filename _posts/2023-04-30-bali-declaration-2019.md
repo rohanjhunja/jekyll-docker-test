@@ -10,7 +10,7 @@ authors:
 - isha
 ---
 
-#### The Bali Declaration was prepared by TCI Asia Pacific for people with psychosocial difficulties, related organisations and cross disability supporters. <br><br>The document was presented at the UNCRPD, the United Nations Convention on the Rights of Persons with Disabilities.
+**The Bali Declaration was prepared by TCI Asia Pacific for people with psychosocial difficulties, related organisations and cross disability supporters.** <br><br>The document was presented at the UNCRPD, the United Nations Convention on the Rights of Persons with Disabilities.
 
 ![]({{site.baseurl}}/images/bali1.jpg)
 
