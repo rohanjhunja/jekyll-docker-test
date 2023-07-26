@@ -6,12 +6,12 @@ layout: "wrapper"
 	<div class="title">{{ page.title }}<div class="client">{{ page.client }}</div></div> 
 	<div id="workGrid">
         {{ content}}
-        <div style="margin:0 0 15vw 50px; width: 100%; display: flex; justify-content: space-between;">
+        <div class="authorBox">
             <div>{% include authors_section.html %}</div>
-            <a class="Links" href="{{site.baseurl}}{{page.next.url}}" style="display: flex; height: 100px; text-align: right; align-items: center; gap: 10px;">
+            <a class="Links nextProjectBox" href="{{site.baseurl}}{{page.next.url}}" style="">
                 {% if page.next.url %}
                 <div>next project:<br>{{page.next.title}}</div>
-                <div class="profileTile"><img src="{{site.baseurl}}{{page.next.coverImage}}"></div>
+                <div class="profileTile projectTile"><img src="{{site.baseurl}}{{page.next.coverImage}}"></div>
                 {% endif %}
             </a>
         </div>

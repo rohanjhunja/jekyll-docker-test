@@ -22,10 +22,10 @@ authors:
 {:.fullwidth}
 ![]({{site.baseurl}}/images/food2.jpg)
 
+Correct nutrition is a pressing concern in villages and this game helps the audience to understand what choices they are making and if they can be improved.
+
+![]({{site.baseurl}}/images/food3.jpg)
+
 ![]({{site.baseurl}}/images/food1.jpg)
 
 The kit is used to facilitate an interactive dialogue between educator and audience, broadening their perspective. This simple tool is designed to be easily carried in a small backpack.
-
-One of the pressing concerns is correct nutrition and this game helps the audience to understand what choices they are making and if they can be improved.
-
-![]({{site.baseurl}}/images/food3.jpg)
