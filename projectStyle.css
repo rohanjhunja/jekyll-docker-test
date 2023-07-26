@@ -64,15 +64,15 @@ body{
 
 .title{
 	display: inline-block; 
-	font-size: 50px; 
-	margin: 150px 0 50px 10%; 
+	font-size: 4rem; 
+	margin: 240px 0 50px 10%; 
 	font-weight: 600; 
 	line-height: 1.2; 
 	background-color: white;
 }
 
 .client{
-	font-size: 30px; font-weight: 400; padding-top: 10px;
+	font-size: 3rem; font-weight: 400; padding-top: 10px;
 }
 
 
@@ -108,8 +108,13 @@ body{
 
 
 p{
-	font-size: 24px;
+	font-size: 3rem;
 	line-height: 1.4;
+}
+
+strong{
+	font-weight:bold;
+	font-size: 4rem;
 }
 
 .fullwidth{
@@ -141,10 +146,6 @@ p{
 .projectTile{
 	width: 300px;
 	height: 300px;
-}
-
-.projectTile:hover{
-	width: 200px;
 }
 
 .Links{
@@ -181,8 +182,24 @@ align-items: center;
 
 
 @media only screen and (min-width: 1000px) {
+
+.title{
+	font-size: 3rem; 
+	margin: 150px 0 50px 10%; 
+}
+
+.client{
+	font-size: 1.5rem;
+}
+
 p{
 	margin:50px;
+	font-size: 1.5rem;
+}
+
+strong{
+font-weight:bold;
+font-size: 1.5rem;
 }
 
 #workGrid p{
@@ -208,7 +225,12 @@ p{
 	height: 7vw;
 }
 
+.projectTile:hover{
+	width: 200px;
+}
+
 .authorBox{
+	margin:100px 50px 15vw 50px; 
 	flex-direction: row; 
 	gap: 0px; 
 	align-items: left;

@@ -184,7 +184,9 @@ html{
 	
 	.paraLine{
 		font-family: 'Nanum Pen Script', cursive;
-		padding-top: 30px;
+		padding: 6vw 0;
+    	font-size: 6vw;
+    	color: #aaaaaa;
 	}
 
 	.otherGrid{
@@ -327,6 +329,11 @@ html{
 		.projectPara{
 			font-size:2vw;
 			padding-right:40vw;
+		}
+
+		.paraLine{
+			padding: 2vw 0;
+			font-size: 2vw;
 		}
 
 		p{
